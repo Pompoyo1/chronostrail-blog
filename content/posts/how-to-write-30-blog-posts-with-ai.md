@@ -1,7 +1,7 @@
 ---
 title: "How I Write 30 Blog Posts a Month With AI (Without It Sounding Like AI)"
 date: "2026-05-08"
-meta_description: "My exact workflow for producing 30+ blog posts per month using AI tools — without robotic output, without outsourcing quality, and without working 80-hour weeks."
+meta_description: "My exact workflow for producing 30+ blog posts per month using AI tools, without robotic output, without outsourcing quality, and without working 80-hour weeks."
 tags: ["ai content strategy", "ai writing workflow", "content production", "blogging"]
 category: "strategy"
 affiliate_links_used: ["jasper", "surfer", "copyai"]
@@ -11,7 +11,7 @@ The number people always get stuck on is 30.
 
 "Thirty blog posts a month? That's impossible." Or: "That has to be garbage content." Or: "You must be outsourcing everything."
 
-None of those things are true. And once I walk you through the actual workflow, you'll see why the number isn't impressive — it's just what happens when you stop treating content like an artisanal process and start treating it like a system.
+None of those things are true. And once I walk you through the actual workflow, you'll see why the number isn't impressive. It's just what happens when you stop treating content like an artisanal process and start treating it like a system.
 
 ---
 
@@ -19,7 +19,7 @@ None of those things are true. And once I walk you through the actual workflow, 
 
 Before the setup: I'm not telling you to publish AI output raw. I'm not telling you to publish thin content that adds nothing. And I'm not telling you that volume trumps quality.
 
-What I am telling you is that the AI tools available right now — used correctly — can handle 70-80% of the mechanical work in content production without sacrificing quality. Your job is the remaining 20-30%: strategic thinking, opinion, verification, and editorial judgment.
+What I am telling you is that the AI tools available right now, used correctly, can handle 70-80% of the mechanical work in content production without sacrificing quality. Your job is the remaining 20-30%: strategic thinking, opinion, verification, and editorial judgment.
 
 That's still a lot of work. It's just 30 hours instead of 120.
 
@@ -29,13 +29,13 @@ That's still a lot of work. It's just 30 hours instead of 120.
 
 Here's what I'm running every month:
 
-- **[Surfer SEO](https://surferseo.com/?via=chronostrail&utm_source=blog)** — keyword research and content optimization
-- **[Jasper AI](https://jasper.ai/?via=chronostrail&utm_source=blog)** — long-form drafting
-- **[Copy.ai](https://copy.ai/referral/chronostrail&utm_source=blog)** — short-form repurposing (social, email subject lines)
-- **Google Search Console** — performance monitoring, free
-- **Notion** — editorial calendar and content briefs, $8/month
+- **[Surfer SEO](https://surferseo.com/?via=chronostrail&utm_source=blog):** keyword research and content optimization
+- **[Jasper AI](https://jasper.ai/?via=chronostrail&utm_source=blog):** long-form drafting
+- **[Copy.ai](https://copy.ai/referral/chronostrail&utm_source=blog):** short-form repurposing (social, email subject lines)
+- **Google Search Console:** performance monitoring, free
+- **Notion:** editorial calendar and content briefs, $8/month
 
-Total monthly tool cost: ~$170. Monthly output: 30 articles. The math works.
+Total monthly tool cost: around $170. Monthly output: 30 articles. The math works.
 
 ---
 
@@ -67,9 +67,9 @@ This brief is the foundation. I don't start writing until I have it.
 
 I open Jasper, point it to my Surfer brief, and start the draft. My process:
 
-1. Write the hook manually — this is the one section I always write myself. The first paragraph either earns the reader or loses them.
+1. Write the hook manually. This is the one section I always write myself. The first paragraph either earns the reader or loses them.
 2. Let Jasper draft the body sections, heading by heading, using the Surfer entities as guidance.
-3. Write the conclusion manually — same reason as the hook.
+3. Write the conclusion manually. Same reason as the hook.
 
 The result is a 1,500-2,500 word draft that's 70-80% ready to publish.
 
@@ -77,13 +77,13 @@ The result is a 1,500-2,500 word draft that's 70-80% ready to publish.
 
 This is the most important step, and the one most people skip.
 
-I read the draft out loud. Anything that doesn't sound like me gets rewritten. Any statistic or factual claim gets verified — I never publish a number Jasper gave me without checking it. Any section that's generic or says nothing gets cut or replaced with an actual opinion.
+I read the draft out loud. Anything that doesn't sound like me gets rewritten. Any statistic or factual claim gets verified. I never publish a number Jasper gave me without checking it. Any section that's generic or says nothing gets cut or replaced with an actual opinion.
 
 After this pass, the article is mine. It started as a Jasper draft. It publishes as my work.
 
 ### Step 5: Optimize and Publish (10 minutes)
 
-Final Surfer Content Score check — I'm targeting 70+. Write the meta description (I use Copy.ai for this — 30 seconds). Add internal links. Publish.
+Final Surfer Content Score check. I'm targeting 70+. Write the meta description (I use Copy.ai for this, 30 seconds). Add internal links. Publish.
 
 ### Step 6: Repurpose (5 minutes)
 
@@ -114,7 +114,7 @@ One article. Five pieces of content. That's the multiplier.
 
 ## The Part That Actually Makes It Work
 
-The workflow above is replicable. But the thing that makes it produce content worth reading — the thing you can't outsource or automate — is having genuine opinions about your topic.
+The workflow above is replicable. But the thing that makes it produce content worth reading, the thing you can't outsource or automate, is having genuine opinions about your topic.
 
 I know these tools well. I've used them, tested them, and formed views. When Jasper drafts something generic, I can replace it with something real because I have something real to say.
 
