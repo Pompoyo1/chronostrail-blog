@@ -1,1 +1,1 @@
-# chronostrail-blog
+# Chronos Trail Blog
