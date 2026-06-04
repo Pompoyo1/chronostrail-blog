@@ -1,4 +1,4 @@
-'use client'
+import Script from 'next/script'
 
 interface EmailCaptureProps {
   variant?: 'hero' | 'inline' | 'sidebar'
@@ -15,15 +15,11 @@ export default function EmailCapture({ variant = 'inline' }: EmailCaptureProps) 
       <p className="text-slate-400 text-sm mb-4">
         One email every Wednesday. The best AI tools, honest reviews, and one tip you can use today.
       </p>
-      {/* Replace BEEHIIV_EMBED_ID with your actual Beehiiv embed ID */}
-      <iframe
-        src="https://embeds.beehiiv.com/BEEHIIV_EMBED_ID"
-        data-test-id="beehiiv-embed"
-        width="100%"
-        height="52"
-        frameBorder="0"
-        scrolling="no"
-        style={{ borderRadius: '4px' }}
+      <div data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b" />
+      <Script
+        src="https://subscribe-forms.beehiiv.com/v3/loader.js"
+        data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b"
+        strategy="lazyOnload"
       />
     </div>
   )
