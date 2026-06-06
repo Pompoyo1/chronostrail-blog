@@ -13,6 +13,7 @@ export default function ExitIntent() {
       if (e.clientY < 10) {
         setVisible(true)
         sessionStorage.setItem('exit-intent-shown', '1')
+        document.removeEventListener('mouseleave', handleMouseLeave)
       }
     }
 

@@ -10,7 +10,7 @@ export default function Home() {
       {/* Hero */}
       <section className="text-center mb-16">
         <h1 className="text-4xl font-bold text-slate-900 mb-4">
-          The AI tools worth paying for — and the ones that aren&apos;t.
+          The AI tools worth paying for. And the ones that aren&apos;t.
         </h1>
         <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
           Honest reviews, head-to-head comparisons, and buyer guides for freelancers,
