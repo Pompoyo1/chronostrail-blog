@@ -10,7 +10,7 @@ export default function ExitIntent() {
     if (sessionStorage.getItem('exit-intent-shown')) return
 
     const handleMouseLeave = (e: MouseEvent) => {
-      if (e.clientY < 10) {
+      if (e.clientY < 50 && e.relatedTarget === null) {
         setVisible(true)
         sessionStorage.setItem('exit-intent-shown', '1')
         document.removeEventListener('mouseleave', handleMouseLeave)
