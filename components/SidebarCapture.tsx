@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import Script from 'next/script'
 
 export default function SidebarCapture() {
   const [visible, setVisible] = useState(false)
@@ -29,11 +28,6 @@ export default function SidebarCapture() {
         Every Wednesday. Honest reviews, no fluff.
       </p>
       <div data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b" />
-      <Script
-        src="https://subscribe-forms.beehiiv.com/v3/loader.js"
-        data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b"
-        strategy="lazyOnload"
-      />
     </div>
   )
 }

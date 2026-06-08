@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import FTCDisclosure from "@/components/FTCDisclosure";
-import EmailCapture from "@/components/EmailCapture";
 import SidebarCapture from "@/components/SidebarCapture";
 import ExitIntent from "@/components/ExitIntent";
 import Link from "next/link";
@@ -56,11 +55,23 @@ export default function RootLayout({
           </div>
         </header>
         <main className="flex-1">{children}</main>
+        <Script
+          src="https://subscribe-forms.beehiiv.com/v3/loader.js"
+          data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b"
+          strategy="lazyOnload"
+        />
         <SidebarCapture />
         <ExitIntent />
         <footer className="border-t border-slate-100 mt-20 py-10 text-center text-sm text-slate-400">
-          <div className="max-w-md mx-auto mb-8">
-            <EmailCapture />
+          <div className="max-w-sm mx-auto mb-8">
+            <p className="text-base font-semibold text-slate-800 mb-1">The AI Tools Weekly</p>
+            <p className="text-slate-500 text-sm mb-4">One email every Wednesday. Honest reviews, no fluff.</p>
+            <Link
+              href="/newsletter"
+              className="inline-block bg-slate-900 text-white text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-slate-700 transition-colors"
+            >
+              Subscribe free →
+            </Link>
           </div>
           <p>© {new Date().getFullYear()} Chronos Trail. This site contains affiliate links.</p>
         </footer>

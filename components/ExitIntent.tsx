@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import Script from 'next/script'
 
 export default function ExitIntent() {
   const [visible, setVisible] = useState(false)
@@ -38,11 +37,6 @@ export default function ExitIntent() {
           Get the best AI tools delivered every Wednesday. One email. No spam.
         </p>
         <div data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b" />
-        <Script
-          src="https://subscribe-forms.beehiiv.com/v3/loader.js"
-          data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b"
-          strategy="lazyOnload"
-        />
         <button
           onClick={() => setVisible(false)}
           className="mt-4 text-xs text-slate-400 hover:text-slate-600 w-full text-center"

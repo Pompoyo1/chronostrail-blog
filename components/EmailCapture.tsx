@@ -1,5 +1,3 @@
-import Script from 'next/script'
-
 interface EmailCaptureProps {
   variant?: 'hero' | 'inline' | 'sidebar'
 }
@@ -16,11 +14,6 @@ export default function EmailCapture({ variant = 'inline' }: EmailCaptureProps) 
         One email every Wednesday. The best AI tools, honest reviews, and one tip you can use today.
       </p>
       <div data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b" />
-      <Script
-        src="https://subscribe-forms.beehiiv.com/v3/loader.js"
-        data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b"
-        strategy="lazyOnload"
-      />
     </div>
   )
 }
