@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import FTCDisclosure from "@/components/FTCDisclosure";
+import EmailCapture from "@/components/EmailCapture";
 import SidebarCapture from "@/components/SidebarCapture";
 import ExitIntent from "@/components/ExitIntent";
 import Link from "next/link";
@@ -58,6 +59,9 @@ export default function RootLayout({
         <SidebarCapture />
         <ExitIntent />
         <footer className="border-t border-slate-200 mt-16 py-8 text-center text-sm text-slate-500">
+          <div className="max-w-md mx-auto mb-6">
+            <EmailCapture />
+          </div>
           <p>© {new Date().getFullYear()} Chronos Trail. This site contains affiliate links.</p>
         </footer>
       </body>
