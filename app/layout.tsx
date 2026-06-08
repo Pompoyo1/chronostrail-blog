@@ -57,7 +57,6 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Script
           src="https://subscribe-forms.beehiiv.com/v3/loader.js"
-          data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b"
           strategy="lazyOnload"
         />
         <SidebarCapture />
