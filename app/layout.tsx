@@ -32,6 +32,7 @@ export default function RootLayout({
     <html lang="en" className="h-full antialiased">
       <head>
         <meta name="p:domain_verify" content="87f47da3fb6946c9d8b93b229cf62724" />
+        <meta name="google-site-verification" content="FJcq25EHhvyx30E-9uy7GaffTxtYYPC8OS_WxI_7K8c" />
         <Script
           defer
           data-domain="chronostrail.com"
