@@ -46,26 +46,26 @@ export default async function BlogPost({ params }: Props) {
   };
 
   return (
-    <article className="max-w-3xl mx-auto px-4 py-12">
+    <article className="max-w-2xl mx-auto px-6 py-16">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
 
-      <div className="mb-8">
-        <span className="text-xs text-slate-500 uppercase tracking-wide font-medium">
+      <div className="mb-10">
+        <span className="text-xs text-slate-400 uppercase tracking-widest font-medium">
           {post.category}
         </span>
-        <h1 className="text-3xl font-bold text-slate-900 mt-2 mb-3">{post.title}</h1>
-        <p className="text-slate-500 text-sm">{post.date}</p>
+        <h1 className="text-3xl font-semibold text-slate-900 mt-3 mb-3 leading-tight tracking-tight">{post.title}</h1>
+        <p className="text-slate-400 text-sm">{post.date}</p>
       </div>
 
       <div
-        className="prose prose-slate max-w-none"
+        className="prose prose-slate prose-p:leading-relaxed prose-p:text-slate-600 prose-headings:font-semibold prose-headings:tracking-tight prose-a:text-slate-900 prose-a:underline-offset-2 max-w-none"
         dangerouslySetInnerHTML={{ __html: post.contentHtml }}
       />
 
-      <div className="mt-12">
+      <div className="mt-14">
         <EmailCapture variant="inline" />
       </div>
     </article>

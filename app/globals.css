@@ -2,6 +2,8 @@
 @plugin "@tailwindcss/typography";
 
 body {
-  background: #ffffff;
-  color: #171717;
+  background: #f9f9f7;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
