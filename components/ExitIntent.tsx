@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import SubscribeForm from './SubscribeForm'
 
 export default function ExitIntent() {
   const [visible, setVisible] = useState(false)
@@ -36,7 +37,7 @@ export default function ExitIntent() {
         <p className="text-slate-600 mb-6">
           Get the best AI tools delivered every Wednesday. One email. No spam.
         </p>
-        <div data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b" />
+        <SubscribeForm />
         <button
           onClick={() => setVisible(false)}
           className="mt-4 text-xs text-slate-400 hover:text-slate-600 w-full text-center"

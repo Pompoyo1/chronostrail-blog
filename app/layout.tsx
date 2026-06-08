@@ -55,10 +55,6 @@ export default function RootLayout({
           </div>
         </header>
         <main className="flex-1">{children}</main>
-        <Script
-          src="https://subscribe-forms.beehiiv.com/v3/loader.js"
-          strategy="lazyOnload"
-        />
         <SidebarCapture />
         <ExitIntent />
         <footer className="border-t border-slate-100 mt-20 py-10 text-center text-sm text-slate-400">

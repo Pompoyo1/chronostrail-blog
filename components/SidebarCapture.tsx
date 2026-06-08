@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import SubscribeForm from './SubscribeForm'
 
 export default function SidebarCapture() {
   const [visible, setVisible] = useState(false)
@@ -27,7 +28,7 @@ export default function SidebarCapture() {
       <p className="text-slate-400 text-xs mb-4">
         Every Wednesday. Honest reviews, no fluff.
       </p>
-      <div data-beehiiv-form="22e08388-7394-4906-a8c7-fb127668092b" />
+      <SubscribeForm />
     </div>
   )
 }
