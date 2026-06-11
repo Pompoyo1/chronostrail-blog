@@ -8,18 +8,14 @@ export async function POST(req: NextRequest) {
   }
 
   const res = await fetch(
-    `https://api.beehiiv.com/v2/publications/${process.env.BEEHIIV_PUBLICATION_ID}/subscriptions`,
+    'https://api.buttondown.email/v1/subscribers',
     {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: `Bearer ${process.env.BEEHIIV_API_KEY}`,
+        Authorization: `Token ${process.env.BUTTONDOWN_API_KEY}`,
       },
-      body: JSON.stringify({
-        email,
-        reactivate_existing: false,
-        send_welcome_email: true,
-      }),
+      body: JSON.stringify({ email }),
     }
   )
 
