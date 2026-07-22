@@ -15,11 +15,13 @@ export async function POST(req: NextRequest) {
         'Content-Type': 'application/json',
         Authorization: `Token ${process.env.BUTTONDOWN_API_KEY}`,
       },
-      body: JSON.stringify({ email }),
+      body: JSON.stringify({ email_address: email }),
     }
   )
 
   if (!res.ok) {
+    const errorBody = await res.text()
+    console.error(`Buttondown subscribe failed: ${res.status} — ${errorBody}`)
     return NextResponse.json({ error: 'Subscription failed' }, { status: 500 })
   }
 
